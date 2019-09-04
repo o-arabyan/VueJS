@@ -1,0 +1,30 @@
+/**
+ * Fonts
+*/
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=1b475822-b89d-45f5-be54-2cc321e1bb8b&fontids=775724");
+@font-face{
+      font-family:"HarmoniaSans W01 SemiBd";
+      src:url("~@/assets/fonts/cd8a7ca1-a1a1-4902-9824-18890229b553.eot?#iefix");
+      src:url("~@/assets/fonts/cd8a7ca1-a1a1-4902-9824-18890229b553.eot?#iefix") format("eot"),
+      url("~@/assets/fonts/08591efc-f43b-4dc0-b066-e39bb77fd0d9.woff2") format("woff2"),
+      url("~@/assets/fonts/bb2822e9-2055-4c95-bd66-438a33d71a60.woff") format("woff"),
+      url("~@/assets/fonts/1796e78c-3f90-4d62-a510-d2f1ebc88d86.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Graphik Web Semibold';
+  src: url('~@/assets/fonts/Graphik-Semibold-Web.woff2') format('woff2'),
+  url('~@/assets/fonts/Graphik-Semibold-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Graphik Web Regular';
+  src: url('~@/assets/fonts/Graphik-Regular-Web.woff2') format('woff2'),
+  url('~@/assets/fonts/Graphik-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}

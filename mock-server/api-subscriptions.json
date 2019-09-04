@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "id": "spelling",
+      "name": "Spelling",
+      "subCategories": [{
+        "id": "scripps",
+        "name": "National Spelling Bee (SCRIPPS)"
+      }, {
+        "id": "nsf",
+        "name": "NSF"
+      }]
+    }, {
+      "id": "vocab",
+      "name": "Vocabulary",
+      "subCategories": [{
+        "id": "scripps",
+        "name": "National Spelling Bee (SCRIPPS)"
+      }, {
+        "id": "nsf",
+        "name": "NSF"
+      }]
+    }
+  ],
+  "lists": [{
+    "id": "2344-23424-23232-2323",
+    "productId": "s-grade-level1",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level1"
+  }, {
+    "id": "2344-23424-23232-2324",
+    "productId": "s-grade-level2",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level2"
+  }, {
+    "id": "2344-23424-23232-2325",
+    "productId": "s-grade-level3",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level3"
+  },{
+    "id": "2344-23424-23232-2326",
+    "productId": "s-scripps-level1",
+    "category": "spelling",
+    "subCategory": "scripps",
+    "name": "Level1"
+  }]
+}

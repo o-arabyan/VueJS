@@ -1,0 +1,65 @@
+.login {
+  position: relative;
+  overflow: hidden;
+  .container-fluid {
+    padding: 0;
+  }
+  &__content {
+    padding: 2rem 15px;
+    @include mq(xl) {
+      padding: 5rem 10rem;
+    }
+  }
+
+  &__bottom {
+    @include mq(xl) {
+      padding-right: 10rem;
+    }
+  }
+  &__title {
+      font-size: 2rem;
+      margin-bottom: 1.2rem;
+  }
+  .form-input--checkbox {
+    display: none;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .form-group {
+      margin-bottom: 0;
+    }
+  }
+  &__image {
+    img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__pattern {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(45deg) translateX(-50%);
+    transform-origin: left;
+    opacity: 0.3;
+  }
+}
+
+// General for login and sign up
+.logo__container {
+  margin-bottom: 3rem;
+}
+.logo__img {
+  @include mq(lg) {
+    width: 20rem;
+  }
+}
+.logo__description {
+  font-size: 1.6rem;
+  color: $dark-blue;
+  padding-top: 1rem;
+
+}

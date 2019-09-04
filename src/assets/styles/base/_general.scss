@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+body {
+  background-color: $body-bg;
+  color: $black;
+  font-family: $body-font;
+}
+
+a {
+  color: $link-color;
+  transition: color .2s linear;
+  &:hover {
+    color: currentColor;
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: $heading-font;
+  }
+}
+
+select {
+  appearance: none;
+}
+
+
+.main-heading {
+  font-size: 1.5rem;
+  margin: 1.3rem 0;
+}
+
+.content-wrapper {
+  margin-left: $sidebar-width;
+  padding: 0 2rem;
+}
+
+// Transition for the application
+.app-enter-active, .app-leave-active {
+  transform: translateY(0);
+  transition: all .18s cubic-bezier(.13,.89,.58,1)
+}
+.app-enter, .app-leave-to {
+  transform: translateY(-2rem);
+  opacity: 0;
+}
+
+
+.charts {
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

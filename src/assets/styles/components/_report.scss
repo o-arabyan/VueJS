@@ -1,0 +1,37 @@
+.report {
+  padding: 4rem;
+  margin: 4rem 0;
+  position: relative;
+  .main-heading {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    line-height: 1;
+  }
+  &__percentage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    span {
+      color: $dark-green;
+      font-family: $heading-font;
+      font-size: 4rem;
+      margin-left: 2rem;
+    }
+  }
+
+  &__stats {
+    span {
+      margin-left: 2rem;
+      &:last-child:after {
+        display: none;
+      }
+      &:after {
+        content: "/";
+        padding-left: 2rem;
+      }
+    }
+  }
+}

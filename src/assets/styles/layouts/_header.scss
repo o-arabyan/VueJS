@@ -1,0 +1,49 @@
+.main-header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid lighten($black, 55%);
+  margin-left: $sidebar-width;
+  &.is-dashboard {
+    line-height: 1.5;
+    background-color: $dark-blue;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      background-image: url('~@/assets/images/svg/pattern-bg.svg');
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      left: 0;
+      z-index: 0;
+    }
+  }
+  &__dashboard {
+    position: relative;
+    z-index: 2;
+    color: $white;
+    &-title {
+      font-size: 3rem;
+      line-height: 1;
+    }
+  }
+
+  &__menu {
+    height: 4rem;
+    min-width: 14.6875rem;
+    background-color: $white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    &-student {
+      height: 100%;
+    }
+    &-icon {
+      padding-right: 1rem;
+    }
+  }
+}

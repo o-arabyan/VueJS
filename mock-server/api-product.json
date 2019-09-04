@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "id": "spelling",
+      "name": "Spelling",
+      "subCategories": [{
+        "id": "grade",
+        "name": "Grade Level"
+      }, {
+        "id": "scripps",
+        "name": "National Spelling Bee (SCRIPPS)"
+      }, {
+        "id": "specialized",
+        "name": "Specialized Bee"
+      }, {
+        "id": "nsf",
+        "name": "NSF"
+      }, {
+        "id": "sasb",
+        "name": "South Asian Spelling Bee"
+      }, {
+        "id": "custom",
+        "name": "Custom"
+      }]
+    }, {
+      "id": "vocab",
+      "name": "Vocabulary",
+      "subCategories": [{
+        "id": "grade",
+        "name": "Grade Level"
+      }, {
+        "id": "scripps",
+        "name": "National Spelling Bee (SCRIPPS)"
+      }, {
+        "id": "nsf",
+        "name": "NSF"
+      }, {
+        "id": "custom",
+        "name": "Custom"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+.btn {
+  padding: 0.9rem 0.75rem;
+  appearance: none;
+  border: 0;
+  vertical-align: middle;
+  user-select: none;
+  border-radius: $border-radius;
+  transition: all .3s $easeInOutQuad;
+  display: inline-block;
+  text-align: center;
+  color: $white;
+  &:focus {
+    outline: none;
+  }
+  &--lg {
+    padding: 0.9rem 4rem;
+  }
+  &--primary {
+    background-color: $dark-blue;
+    color: $white;
+    &:hover,
+    &:active {
+      background-color: $light-blue;
+      color: $white;
+    }
+  }
+  &--full-width {
+    width: 100%;
+  }
+
+  &--gray {
+    background-color: $light-gray;
+    display: flex;
+    color: $black;
+    justify-content: space-between;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &--grey {
+    background-color: $light-gray;
+    color: $black;
+    text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &--black {
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    &:hover {
+      opacity: 0.8;
+      color: $white
+    }
+  }
+  &--blue {
+    background-color: $light-blue;
+    color: $white;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &--green {
+    background-color: $dark-green;
+    color: $white;
+    &:hover {
+      opacity: 0.8;
+      color: $white;
+    }
+  }
+  &--yellow {
+    background-color: $yellow;
+    color: $black;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &--darkblue {
+    background-color: $dark-blue;
+    &:hover {
+      color: $white;
+      opacity: 0.8;
+    }
+  }
+  &--outline {
+    border: 1px solid $black;
+    color: $black;
+    &:hover {
+      color: $light-blue;
+      border-color: $light-blue;
+    }
+
+    &-white {
+      margin: 1.5rem 0;
+      border: 1px solid $white;
+      color: $white;
+      padding: 0.5rem 3rem;
+      &:hover {
+        color: $white;
+        border-color: transparent;
+        background-color: $dark-green;
+      }
+    }
+  }
+}
+
+
+// Btn group
+.btn-groups {
+  .btn {
+    padding: 0.5rem 2rem;
+    min-width: 9rem;
+    &:first-child {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.btn--loading {
+  pointer-events: none;
+  opacity: 0.8;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+@keyframes spinner-border {
+  to { transform: rotate(360deg); }
+}
+
+.btn--loader {
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border .75s linear infinite;
+  margin-left: 1rem;
+}

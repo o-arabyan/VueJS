@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Personal-Account" transform="translate(-482.000000, -684.000000)" fill-rule="nonzero">
+            <g id="Form-Acutal" transform="translate(404.000000, 330.000000)">
+                <g id="Address-block" transform="translate(64.000000, 227.000000)">
+                    <g id="Group-2" transform="translate(14.000000, 127.000000)">
+                        <path d="M9,-1.95399252e-14 L9,6 C7.34314575,6 6,7.34314575 6,9 C6,10.6568542 7.34314575,12 9,12 L9,21.3137085 C8.74407768,21.3137085 8.48815536,21.2160774 8.29289322,21.0208153 L2.63603897,15.363961 C-0.878679656,11.8492424 -0.878679656,6.15075759 2.63603897,2.63603897 C4.39339828,0.878679656 6.69669914,-3.3243297e-11 9,-1.95399252e-14 L9,-1.95399252e-14 Z" id="Path" fill="#A5B3BB"></path>
+                        <path d="M9,-1.42108547e-14 C11.3033009,3.32107675e-11 13.6066017,0.878679656 15.363961,2.63603897 C18.8786797,6.15075759 18.8786797,11.8492424 15.363961,15.363961 L9.70710678,21.0208153 C9.51184464,21.2160774 9.25592232,21.3137085 9,21.3137085 L9,12 C10.6568542,12 12,10.6568542 12,9 C12,7.34314575 10.6568542,6 9,6 L9,-1.42108547e-14 Z" id="secondary" fill="#3E4C59"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

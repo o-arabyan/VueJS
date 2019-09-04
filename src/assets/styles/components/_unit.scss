@@ -1,0 +1,57 @@
+.unit {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+    &.is-active {
+      border: 3px solid $light-blue;
+    }
+
+    &-details {
+      a {
+        font-size: 1.5rem;
+        color: $black;
+        text-decoration: underline;
+        padding-bottom: 0.35rem
+      }
+    }
+
+    &-progress {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    &-score {
+      font-size: 1.3rem;
+      strong {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+
+// General Progress Bar
+.progress-bar {
+  position: relative;
+  background: #D8D8D8;
+  height: 1rem;
+  flex-grow: 2;
+  width: 140px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  &__percentage {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    background-color: $dark-green;
+    width: 0;
+  }
+}

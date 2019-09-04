@@ -1,0 +1,16 @@
+{
+  "info": {
+      "username": "admin",
+      "email": "admin@sophnos.com"
+  },
+  "personal": {
+      "username": "admin",
+      "firstName": "admin",
+      "lastName": "sophnos",
+      "streetAddress": "777 Funny Street",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "78878",
+      "phoneNumber": "2142342345"
+    }
+}

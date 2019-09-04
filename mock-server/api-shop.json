@@ -1,0 +1,195 @@
+{
+  "products": [{
+    "id": "s-grade-level1",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level1",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": true,
+    "expirationDate": "2019-05-12T00:00:00"
+  }, {
+    "id": "s-grade-level2",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level2",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": false,
+    "expirationDate": "2020-07-12T00:00:00"
+  }, {
+    "id": "s-grade-level3",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level3",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 120
+  }, {
+    "id": "s-grade-level4",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level4",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100
+  }, {
+    "id": "s-scripps-level1",
+    "category": "spelling",
+    "subCategory": "scripps",
+    "name": "Level1",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": true,
+    "expirationDate": "2019-05-12T00:00:00"
+  }, {
+    "id": "s-scripps-level2",
+    "category": "spelling",
+    "subCategory": "scripps",
+    "name": "Level2",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": false,
+    "expirationDate": "2020-07-12T00:00:00"
+  }, {
+    "id": "s-scripps-level3",
+    "category": "spelling",
+    "subCategory": "scripps",
+    "name": "Level3",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 120
+  }, {
+    "id": "s-scripps-level4",
+    "category": "spelling",
+    "subCategory": "scripps",
+    "name": "Level4",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100
+  }, {
+    "id": "s-specialized-level1",
+    "category": "spelling",
+    "subCategory": "specialized",
+    "name": "Level1",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": true,
+    "expirationDate": "2019-05-12T00:00:00"
+  }, {
+    "id": "s-specialized-level2",
+    "category": "spelling",
+    "subCategory": "specialized",
+    "name": "Level2",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": false,
+    "expirationDate": "2020-07-12T00:00:00"
+  }, {
+    "id": "s-specialized-level3",
+    "category": "spelling",
+    "subCategory": "specialized",
+    "name": "Level3",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 120
+  }, {
+    "id": "s-specialized-level4",
+    "category": "spelling",
+    "subCategory": "specialized",
+    "name": "Level4",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100
+  }, {
+    "id": "v-grade-kg",
+    "category": "vocab",
+    "subCategory": "grade",
+    "name": "Level1",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": true,
+    "expirationDate": "2019-05-12T00:00:00"
+  }, {
+    "id": "v-grade-elementary",
+    "category": "vocab",
+    "subCategory": "grade",
+    "name": "Level2",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": false,
+    "expirationDate": "2020-07-12T00:00:00"
+  }, {
+    "id": "v-grade-middleschool",
+    "category": "vocab",
+    "subCategory": "grade",
+    "name": "Level3",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 120
+  }, {
+    "id": "v-grade-highschool",
+    "category": "vocab",
+    "subCategory": "grade",
+    "name": "Level4",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100
+  }, {
+    "id": "v-scripps-level1",
+    "category": "vocab",
+    "subCategory": "scripps",
+    "name": "Level1",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": true,
+    "expirationDate": "2019-05-12T00:00:00"
+  }, {
+    "id": "v-scripps-level2",
+    "category": "vocab",
+    "subCategory": "scripps",
+    "name": "Level2",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100,
+    "expired": false,
+    "expirationDate": "2020-07-12T00:00:00"
+  }, {
+    "id": "v-scripps-level3",
+    "category": "vocab",
+    "subCategory": "scripps",
+    "name": "Level3",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 120
+  }, {
+    "id": "v-scripps-level4",
+    "category": "vocab",
+    "subCategory": "scripps",
+    "name": "Level4",
+    "description": "Contains 15,000 more difficult school, district, and regional bee words",
+    "price": 100
+  }],
+  "cart": {
+    "items": [
+      {
+        "id": "s-grade-level1",
+        "category": "spelling",
+        "subCategory": "grade",
+        "name": "Level1",
+        "description": "Contains 15,000 more difficult school, district, and regional bee words",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "v-grade-kg",
+        "category": "vocab",
+        "subCategory": "grade",
+        "name": "Level1",
+        "description": "Contains 15,000 more difficult school, district, and regional bee words",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "v-scripps-level4",
+        "category": "vocab",
+        "subCategory": "scripps",
+        "name": "Level4",
+        "description": "Contains 15,000 more difficult school, district, and regional bee words",
+        "price": 100,
+        "qty": 1
+      }
+    ],
+    "taxRate": 8.25
+  }
+}

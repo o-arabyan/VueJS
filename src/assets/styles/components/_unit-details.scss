@@ -1,0 +1,46 @@
+.unit-details {
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    &-text {
+      font-size: 1.2rem;
+      strong {
+        font-family: $body-heading;
+        font-size: 1.4rem;
+      }
+    }
+    .btn:first-of-type {
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+  }
+}
+
+// Test State Card
+.test-state {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  &__percentage {
+    color: $dark-green;
+  }
+
+  .btn-groups {
+    display: flex;
+    flex-wrap: wrap;
+    .btn {
+      flex-grow: 1;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

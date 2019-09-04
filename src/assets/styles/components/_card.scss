@@ -1,0 +1,41 @@
+.card {
+  padding: 1.2rem;
+  border: 3px solid transparent;
+  transition: border-color .2s $easeInOutQuad;
+  margin-bottom: 1.5rem;
+  @include mq(xl) {
+    margin-bottom: 0;
+  }
+  &:hover{
+    border-color: $light-gray;
+  }
+  &--checkout {
+    border-color: $dark-green;
+    &:hover{
+      border-color: $dark-green;
+    }
+  }
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  &__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    .btn {
+      flex-grow: 2;
+    }
+  }
+  &__price {
+    flex-grow: 1;
+    font-family: $body-heading;
+    background-color: lighten($light-gray, 15%);
+    border-radius: $border-radius;
+    padding: 0.9rem 0.75rem;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+}

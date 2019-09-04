@@ -1,0 +1,47 @@
+.register {
+  min-height: 100vh;
+  background-color: $white;
+  padding-top: 3rem;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "";
+    height: 100vh;
+    background-color: $body-bg;
+    transform: skewY(-12deg);
+    top: -20rem;
+    left: 0;
+    right: 0;
+  }
+  &__form {
+    background-color: $white;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    padding: 1rem 1rem 2rem 1rem;
+
+    &-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__info {
+    &-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1.3rem;
+      img {
+        padding-top: 5px;
+      }
+      &-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        strong {
+          font-family: $body-heading;
+          font-size: 1.20rem
+        }
+      }
+    }
+  }
+}

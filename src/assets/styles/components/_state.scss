@@ -1,0 +1,27 @@
+.stats {
+  padding: 2rem;
+  &__container {
+    //padding-top: 3rem;
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #0a69a34f;
+    padding: 1rem;
+    background: rgba(165, 179, 187, 0.10196078431372549);
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    .form-input--radio {
+      margin-bottom: .6rem;
+    }
+    .stats__bottom-right-ranking {
+      font-family: $heading-font;
+      font-size: 2rem;
+      color: $dark-green;
+      margin-bottom: 0;
+    }
+  }
+}

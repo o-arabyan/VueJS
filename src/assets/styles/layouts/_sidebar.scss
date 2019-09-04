@@ -1,0 +1,33 @@
+.sidebar {
+  width: $sidebar-width;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $white;
+  box-shadow: $box-shadow;
+  padding: 2rem;
+}
+.nav {
+  margin-left: -2rem;
+  margin-right: -2rem;
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__link {
+    padding: 1rem 2rem;
+    transition: all 100ms $easeInOutQuad;
+    display: flex;
+    align-items: center;
+    color: $black;
+    font-family: $heading-font;
+
+    &:hover,
+    &.router-link-exact-active{
+      background-color: #F5F7FA;
+      color: $link-color;
+    }
+  }
+}

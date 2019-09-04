@@ -1,0 +1,76 @@
+.test {
+  &__top {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-item {
+      flex-grow: 1;
+      text-align: center;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:nth-child(odd) {
+        background-color: lighten($light-gray, 10%);
+      }
+
+      &--progress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .progress-bar {
+          flex-grow: 0;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+
+  &__body {
+    padding: 2rem;
+
+    &-star {
+      display: flex;
+      align-items: center;
+      span {
+        margin-left: 10px;
+        padding-top: 3px;
+      }
+    }
+  }
+
+  .word {
+    &__symbol,
+    &__text {
+      font-family: $body-heading;
+      font-size: 2.5rem;
+    }
+
+    &__symbol {
+      background-color: lighten($light-gray, 12%);
+      display: inline-flex;
+      justify-content: center;
+      color: $dark-blue;
+      height: 60px;
+      width: 60px;
+      border-radius: 100%;
+      margin-right: 0.7rem;
+    }
+  }
+}
+
+// Switcher
+.switcher {
+  display: inline-flex;
+  align-items: center;
+  background: lighten($light-gray, 14%);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  line-height: 0;
+  margin-bottom: 2rem;
+  > span {
+    margin-right: 2rem;
+  }
+}

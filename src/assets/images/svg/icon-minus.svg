@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Minus icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shopping-cart" transform="translate(-730.000000, -348.000000)">
+            <g id="Item" transform="translate(412.000000, 317.000000)">
+                <g id="Quantity-Block" transform="translate(314.000000, 27.000000)">
+                    <g id="Minus-icon" transform="translate(4.000000, 4.000000)">
+                        <rect id="primary" fill="#A5B3BB" x="0" y="0" width="13" height="13" rx="1.43999988"></rect>
+                        <path d="M2.8866666,5.77777778 L10.1133334,5.77777778 C10.5109784,5.77777778 10.8333333,6.10013273 10.8333333,6.49777772 L10.8333333,6.50222228 C10.8333333,6.89986727 10.5109784,7.22222222 10.1133334,7.22222222 L2.8866666,7.22222222 C2.48902162,7.22222222 2.16666667,6.89986727 2.16666667,6.50222228 L2.16666667,6.49777772 C2.16666667,6.10013273 2.48902162,5.77777778 2.8866666,5.77777778 Z" id="secondary" fill="#3E4C59"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

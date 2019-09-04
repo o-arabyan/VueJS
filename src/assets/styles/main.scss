@@ -1,0 +1,38 @@
+/* Core variables */
+//@import 'base/variables';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* CSS print */
+@import 'base/print';
+
+/* Grid */
+@import 'base/grid';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* Mixins, helpers and functions*/
+@import "base/mq";
+
+/* General Styles*/
+@import 'base/general';
+
+/* Common */
+@import 'common/utils';
+@import 'common/forms';
+@import 'common/btns';
+
+
+/* Vendor */
+@import "~swiper/dist/css/swiper.min.css";
+
+/* Layout */
+@import 'layouts/header';
+@import 'layouts/sidebar';
+@import 'layouts/footer';
+
+/* Browser specific styles */
+@import 'dirty/hacks';
+

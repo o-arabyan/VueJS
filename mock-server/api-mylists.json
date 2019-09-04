@@ -1,0 +1,58 @@
+{
+  "lists": [{
+    "id": "2344-23424-23232-2323",
+    "productId": "s-grade-level1",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level1",
+    "unitCount": 20
+  }, {
+    "id": "2344-23424-23232-2324",
+    "productId": "s-grade-level2",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level2",
+    "unitCount": 6
+  }, {
+    "id": "2344-23424-23232-2325",
+    "productId": "s-grade-level3",
+    "category": "spelling",
+    "subCategory": "grade",
+    "name": "Level3",
+    "unitCount": 40
+  },{
+    "id": "2344-23424-23232-2326",
+    "productId": "s-scripps-level1",
+    "category": "spelling",
+    "subCategory": "scripps",
+    "name": "Level1",
+    "unitCount": 200
+  }],
+  "unitstats": [{
+    "id": "0",
+    "listDefinitionId": "2344-23424-23232-2323",
+    "listName": "Level1",
+    "starredCount": 30,
+    "missedCount": 23,
+    "totalCount": 500,
+    "tests": [{
+      "id": "1344-23424-23232-2325",
+      "name": "Test 1",
+      "testType": "ALL",
+      "startDate": "2019-05-19",
+      "endDate": "2019-05-19",
+      "missedCount": 20,
+      "totalCount": 500,
+      "score": 96
+    }, {
+      "id": "1344-23424-23232-2326",
+      "name": "Test 2",
+      "testType": "ALL",
+      "startDate": "2019-03-01",
+      "endDate": "2019-04-03",
+      "missedCount": 100,
+      "totalCount": 500,
+      "score": 80
+    }]
+  }]
+}
