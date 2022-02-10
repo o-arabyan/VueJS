@@ -27,7 +27,7 @@
     "@vue/cli-service": "^3.9.0",
     "cross-env": "^5.2.0",
     "json-server": "^0.15.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   }
